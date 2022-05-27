@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.tres" type="SpriteFrames" id=1]
+[ext_resource path="res://Player.gd" type="Script" id=7]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 3.0
+height = 26.0
+
+[node name="Player" type="KinematicBody2D"]
+collision_mask = 62
+script = ExtResource( 7 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+frames = ExtResource( 1 )
+animation = "Dash"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -3, 5 )
+shape = SubResource( 2 )
+
+[node name="RightWall" type="RayCast2D" parent="."]
+position = Vector2( -3, 4 )
+rotation = -1.5708
+enabled = true
+cast_to = Vector2( 0, 10 )
+
+[node name="LeftWall" type="RayCast2D" parent="."]
+position = Vector2( -3, 4 )
+rotation = 1.5708
+enabled = true
+cast_to = Vector2( 0, 4.5 )

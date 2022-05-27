@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/3 - Big Giant Trees - Young Man.mp3-4714d87057b6af8198f6dc5b936ab986.mp3str"
+
+[deps]
+
+source_file="res://Assets/BGM/3 - Big Giant Trees - Young Man.mp3"
+dest_files=[ "res://.import/3 - Big Giant Trees - Young Man.mp3-4714d87057b6af8198f6dc5b936ab986.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
