@@ -51,6 +51,7 @@ La motivación para este juego viene de los juegos de metroid y castlevania que 
 ## Video
 
 https://user-images.githubusercontent.com/58129483/170844742-b3f79026-dfc9-4262-8195-5672ae4b546b.mp4
+
 [Demo](https://youtu.be/_V7Q2Pp2TO4)
 
 
